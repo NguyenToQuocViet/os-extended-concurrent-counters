@@ -93,7 +93,7 @@ int main() {
     std::cout << "    (Iterations per thread: " << BENCHMARK_ITERATIONS << ")\n";
     std::cout << "======================================\n";
 
-    std::vector<int> thread_counts = {1, 2, 4, 6, 12, 16, 32, 64}; 
+    std::vector<int> thread_counts = {1, 2, 4, 6, 12, 16, 32, 64, 128}; 
 
     std::cout << std::setw(10) << "Threads" 
               << std::setw(15) << "Mutex (ms)" 
